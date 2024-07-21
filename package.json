@@ -1,5 +1,5 @@
 {
-  "name": "goit-js-hw-11",
+  "name": "goit-js-hw-12",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -13,7 +13,7 @@
     "vite": "^4.5.2"
   },
   "author": "Piotr Wagner <wgr.animations@gmail.com>",
-  "description": "goit-js-hw-11",
+  "description": "goit-js-hw-12",
   "license": "ISC",
   "dependencies": {
     "flatpickr": "^4.6.13",
