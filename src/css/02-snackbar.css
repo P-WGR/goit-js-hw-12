@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.home-link,
+.home-link:visited {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  font-size: xx-large;
+  text-decoration: none;
+  color: black;
+}
+
+form.form {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding: 36px 156px;
+  width: 360px;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  letter-spacing: 0.04em;
+}
+
+.form > label > input {
+  width: 360px;
+  border: 1px solid rgba(128, 128, 128, 1);
+  border-radius: 4px;
+  width: 354px;
+  height: 36px;
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding: 0;
+  margin: 0;
+  width: 358px;
+  border: 1px solid rgba(128, 128, 128, 1);
+  border-radius: 4px;
+}
+
+fieldset label {
+  padding: 12px 0;
+}
+
+form.form button {
+  background: rgba(78, 117, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+}
+
+form.form button:hover {
+  background-color: rgba(108, 140, 255, 1);
+}
