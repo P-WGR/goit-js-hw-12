@@ -5,17 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-js-hw-11/",
+    "build": "vite build --base=/goit-js-hw-12/",
     "preview": "vite preview"
   },
   "devDependencies": {
     "glob": "^8.1.0",
     "vite": "^4.5.2"
   },
-  "author": "Piotr Wagner <wgr.animations@gmail.com>",
+  "author": "Maciej Bratko <maciej.bratko@gmail.com>",
   "description": "goit-js-hw-12",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.2",
     "flatpickr": "^4.6.13",
     "izitoast": "^1.4.0",
     "simplelightbox": "^2.14.3",

@@ -1,5 +1,9 @@
 @import 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap';
 
+html {
+  overflow-y: scroll;
+}
+
 :root {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -74,6 +78,7 @@ img {
 
 .gallery-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -156,4 +161,16 @@ img {
 .hidden {
   display: none;
   visibility: hidden;
+}
+
+button#showMore {
+  margin-top: 32px;
+  margin-bottom: 44px;
+  width: 125px;
+  padding: 8px;
+}
+
+.loader-showMore {
+  margin-top: 44px;
+  margin-bottom: 60px;
 }
